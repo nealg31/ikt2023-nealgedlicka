@@ -1,0 +1,25 @@
+#h1_rot {
+    color:rgb(181, 172, 70);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#h1_rot{color: rgba(181, 89, 210, 0.68);}
+
+details{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+progress{
+    color:aqua;
+    accent-color: rgb(147, 39, 168);
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
