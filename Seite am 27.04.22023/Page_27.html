@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang ="de">
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylePage27.css">
+   <meta charset = "UTF-8">
+   <meta name="viewport" content="width-device-width, inital-scale=1.0">
+   <title> FunctionsButtons </title>
+
+<script>
+            function ChangeBackground() {
+                document.body.className="NewBackground";
+            }
+            function ChangeFont() {
+                document.getElementById("NewFont").className="NewFont";
+            }
+            function openPopup() {
+                alert("Hallo!");
+            }
+            function alter() {
+                var Alter=prompt("Wie alt sind Sie ?");
+                console.log(Alter);
+                document.getElementById("UserAlter").innerHTML=Alter;
+            }  
+            function insertImage() {
+                var img = document.createElement("img");
+                img.src = "Bundespräsident.jpg";
+                document.body.appendChild(img);
+            }        
+</script>
+  
+</head>
+
+<body>
+   <h1> Funktionen und Buttons </h1>
+   <div>
+        <button onclick="ChangeBackground()"> hier passiert nichts</button>
+
+   </div>
+   <div id="NewFont">
+        <p> random text</p>
+        <button onclick="ChangeFont()"> Ändere die Schriftart </button>
+   </div>
+
+   <div>
+    <button onclick="openPopup()"> Klick mich! </button>
+   </div>
+
+   <div id="UserAlter">
+    <button onclick="alter()"> Alter </button>
+   </div>
+
+   <div>
+    <button onclick="insertImage()">Bild einfügen</button>
+   </div>
+</body>
+</html>

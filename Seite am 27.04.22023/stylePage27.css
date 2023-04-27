@@ -1,0 +1,15 @@
+h1 {
+    font-family: Arial;
+  }
+
+body {
+    background-color: rgb(248, 178, 162);
+}
+
+.NewBackground {
+    background-color:#ff0000;
+}
+
+.NewFont {
+    font-family: Consolas;
+}
